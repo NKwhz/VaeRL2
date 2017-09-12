@@ -14,7 +14,7 @@ Because of the size limit of file to be uploaded, we will upload the dataset to 
 - **DopeSemantic**, **DopeRhyme**, and **DopeLearning** are introduced in [ (Malmi et al. 2016)](https://github.com/ekQ/dopelearning), and called **Dopes** for short. 
 - **Doc2vec**, which includes mere doc2vec representations;
 - **Rhyme2vec**, which includes mere rhyme2vec representations;
-- **con**, which includes ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+d_r%2bd_s)$d_r+d_s$ dimensional representations, produced by concatenating doc2vec and rhyme2vec together.
+- **con**, which includes ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+d_r%2bd_s) dimensional representations, produced by concatenating doc2vec and rhyme2vec together.
 - **conAE**, which employs an autoencoder(AE) network following the concatenating vectors; and
 - **conVAE**, which uses a VAE network to replace the AE network. 
 
@@ -24,7 +24,7 @@ Note that, NN5 is not included in DopeLearning. Because the source code of NN5 i
 
 ## Parameter Setting
 
-For Problem 1 defined in the paper, when $n=3$, $\boldsymbol {v_r^e}$ is omitted; when $n<3$, $\boldsymbol r = \boldsymbol{v_r^m}$.
+For Problem 1 defined in the paper, when ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+n%3d3), ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+%5cboldsymbol+%7bv_r%5ee%7d) is omitted; when $n<3$, $\boldsymbol r = \boldsymbol{v_r^m}$.
 
 ## Run
 
