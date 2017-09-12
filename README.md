@@ -1,7 +1,5 @@
 # VaeRL²
 
-[TOC]
-
 Source code and datasets of paper: "VaeRL²: A VAE based Framework for Rap Lyrics Representation Learning".
 
 ## Experiments
