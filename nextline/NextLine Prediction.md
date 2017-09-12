@@ -24,7 +24,7 @@ Note that, NN5 is not included in DopeLearning. Because the source code of NN5 i
 
 ## Parameter Setting
 
-For Problem 1 defined in the paper, when ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+n%3d3), ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+%5cbm+%7bv_r%5ee%7d) is omitted; when ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+n%3C3), ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+%5Cboldsymbol%20r%20%3D%20%5Cboldsymbol%7Bv_r%5Em%7D).
+For Problem 1 defined in the paper, when ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+n%3d3), ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+%5cbm+%7bv_r%5ee%7d) is omitted; when ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+n%3C3), ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+r%20%3D%20v_r%5Em%7D).
 
 ## Run
 
