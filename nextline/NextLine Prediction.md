@@ -7,7 +7,7 @@ Considering non-existent or few online sources that provide rap lyrics, We obtai
 Because of the size limit of file to be uploaded, we will upload the dataset to :
 
 ## Baseline Models
-![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}))
+![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+x%3d%5cfrac%7b-b%5cpm%5csqrt%7bb%5e2-4ac%7d%7d%7b2a%7d))
 - **DopeSemantic**, which includes BOW, BOW5,and LSA;
 - **DopeRhyme**, which includes EndRhyme, EndRhyme-1, and OtherRhyme; and
 - **DopeLearning**, which is a combination of DopeSemantic, DopeRhyme, and LineLength.
