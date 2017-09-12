@@ -7,14 +7,14 @@ Considering non-existent or few online sources that provide rap lyrics, We obtai
 Because of the size limit of file to be uploaded, we will upload the dataset to :
 
 ## Baseline Models
-![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+x%3d%5cfrac%7b-b%5cpm%5csqrt%7bb%5e2-4ac%7d%7d%7b2a%7d))
+
 - **DopeSemantic**, which includes BOW, BOW5,and LSA;
 - **DopeRhyme**, which includes EndRhyme, EndRhyme-1, and OtherRhyme; and
 - **DopeLearning**, which is a combination of DopeSemantic, DopeRhyme, and LineLength.
 - **DopeSemantic**, **DopeRhyme**, and **DopeLearning** are introduced in [ (Malmi et al. 2016)](https://github.com/ekQ/dopelearning), and called **Dopes** for short. 
 - **Doc2vec**, which includes mere doc2vec representations;
 - **Rhyme2vec**, which includes mere rhyme2vec representations;
-- **con**, which includes $d_r+d_s$ dimensional representations, produced by concatenating doc2vec and rhyme2vec together.
+- **con**, which includes ![equation](http://chart.googleapis.com/chart?cht=tx&chl=\Large+d_r%2bd_s)$d_r+d_s$ dimensional representations, produced by concatenating doc2vec and rhyme2vec together.
 - **conAE**, which employs an autoencoder(AE) network following the concatenating vectors; and
 - **conVAE**, which uses a VAE network to replace the AE network. 
 
