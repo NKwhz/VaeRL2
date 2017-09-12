@@ -1,7 +1,5 @@
 # NextLine Prediction
 
-[TOC]
-
 ## Dataset
 
 Considering non-existent or few online sources that provide rap lyrics, We obtain a corpus of rap lyrics. This corpus consists of 65,730 songs from 3,154 rappers from a lyrics website, [OHHLA](http://ohhla.com/inder.html).
@@ -23,6 +21,10 @@ Because of the size limit of file to be uploaded, we will upload the dataset to 
 Note that, NN5 is not included in DopeLearning. Because the source code of NN5 is not available and we couldn't create a replication simply using the descriptions in its original paper. Furthermore, the increase produced by NN5 against DopeLearning of mean rank is $12.3$, the increase of MRR is $0.02$, as it reported. While the smallest increase of our methods against DopeLearning is more than $51$ and $0.06$ respectively. Beyond that, we have conduct another evaluation task in Section 4.4 of the paper, the baseline verses are provided by the original authors, using DopeLearning and NN5.
 
 ./rhyme2vec is experiment conducted on rhyme2vec, whose results are shown in table 2 of the paper.
+
+## Parameter Setting
+
+For Problem 1 defined in the paper, when $n=3$, $\boldsymbol {v_r^e}$ is omitted; when $n<3$, $\boldsymbol r = \boldsymbol{v_r^m}$.
 
 ## Run
 
